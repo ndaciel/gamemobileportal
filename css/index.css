@@ -3,6 +3,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }*/
+.bold{
+	font-weight: bold;
+}
+
 .box-wrapper{
 	display: block;
 	border-radius: 0.75rem;
@@ -24,13 +28,26 @@
 	  top: -2.25rem;
 	  background:red;
 }
+.circle-photo{
+	 position:absolute;
+	  height:3.5rem;
+	  width:3.5rem;
+	  border-radius:100%;
+	  left:50%;
+	  margin-left:-1.65rem;
+	  top: -1.75rem;
+	  background:red;
+	  overflow: hidden;
+}
 .box-text{
+	font-family: Roboto;
 	color: rgba(51,51,51,1);
 	padding-top: 2.5rem;
 	padding-bottom: 0.5rem;
 }
 
 .main-card{
+	font-family: Roboto;
 	margin: 1rem 0 0.25rem 0;
 	height: auto;
 	width: 15rem;
@@ -81,12 +98,19 @@
   	color: #ffffff;
 }
 
-.main-card-qty{
-	color: var(--blue-color);
-	font-size: 0.75rem;
-	padding: 0 0.625rem 0.5rem 0.625rem;
+.reward-card-text{
+	color: #FFF;
+	font-size: 1rem;
+	font-weight: bold;
+	position: absolute;
+	top:3.5rem;
 }
 
 .main-card-padding{
 	margin-bottom: 0;
+}
+
+.modal-body-text{
+	font-size: 1rem;
+	margin-bottom: 1rem;
 }
