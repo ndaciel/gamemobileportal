@@ -26,7 +26,17 @@
 						</div>
 					</div>
 				</div>
-				<h5 class="text-center mt-3" style="font-size: 1rem; font-family: Roboto;color: rgba(51,51,51,0.5);">Select Rewards</h5>
+				<div class="input-group my-3">
+				  	<div class="input-group-prepend">
+						<label class="input-group-text" for="inputGroupSelect01">Filter by Store</label>
+				  	</div>
+				  	<select class="custom-select" id="inputGroupSelect01">
+						<option selected>All</option>
+						<option value="1">Bread Talk</option>
+						<option value="2">J.Co</option>
+						<option value="3">Johnny Andrean</option>
+				  	</select>
+				</div>
 			</div>
 		</div>
 		<div class="row">

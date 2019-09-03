@@ -99,7 +99,7 @@
 }
 
 .reward-card-text{
-	color: #FFF;
+	color: #FFF !important;
 	font-size: 1rem;
 	font-weight: bold;
 	position: absolute;
