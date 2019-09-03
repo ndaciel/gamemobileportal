@@ -16,9 +16,9 @@
 			<div class="col-12">
 				<div class="pb-2 pt-2 text-center" style="color: #000;">
 					<div class="box-wrapper">
-						<div class="circle" style="background-color: #999;"></div>
-						<div class="circle-photo" style="background-color: #FFF;">
-							<img src="assets/jcoph_201603_5.jpg">
+						<div class="circle" style="background-color: rgba(216,216,216,1);"></div>
+						<div class="circle-photo" style="background-color: rgba(216,216,216,1);">
+							<img class="img-fluid" src="assets/user-circle/user-circle@2x.png">
 						</div>
 						<div class="box-text" style="">
 							<h1 style="font-size: 1rem">Jennifer Lawrence</h1>
@@ -123,7 +123,7 @@
 			      <div class="modal-body">
 			       <h5 class="modal-body-text">Trade <span class="bold">100 points</span> for <span class="bold">Glazzy</span></h5>
 			       <div class="d-flex justify-content-center" style="width: 100%">
-				   		<button type="button" class="btn btn-warning px-5" style="color: #fff">Redeem</button>
+				   		<button onclick="location.href='coupon.php'" type="button" class="btn btn-warning px-5" style="color: #fff">Redeem</button>
 				   </div>
 			      </div>
 			    </div>

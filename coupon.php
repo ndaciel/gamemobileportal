@@ -22,7 +22,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12 mt-5" align="center">
-				<button class="btn btn-light" style="color: #FCAF1A; width: 12rem;">Back to Home</button>
+				<button onclick="location.href='index.php'" class="btn btn-light" style="color: #FCAF1A; width: 12rem;">Back to Home</button>
 			</div>
 		</div>
 	</div>
