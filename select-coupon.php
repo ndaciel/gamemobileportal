@@ -123,7 +123,7 @@
 			      <div class="modal-body">
 			       <h5 class="modal-body-text">Trade <span class="bold">100 points</span> for <span class="bold">Glazzy</span></h5>
 			       <div class="d-flex justify-content-center" style="width: 100%">
-				   		<button onclick="location.href='coupon.php'" type="button" class="btn btn-warning px-5" style="color: #fff">Redeem</button>
+				   		<button onclick="location.href='qr-code.php'" type="button" class="btn btn-warning px-5" style="color: #fff">Redeem</button>
 				   </div>
 			      </div>
 			    </div>
